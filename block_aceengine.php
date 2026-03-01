@@ -15,11 +15,11 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Block definition for block_ace.
+ * Block definition for block_aceengine.
  *
  * Embeds the ACE dashboard inside a course or on the user's My page.
  *
- * @package    block_ace
+ * @package    block_aceengine
  * @copyright  2026 Letstudy Group
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -30,16 +30,16 @@
  * Displays gamification stats (XP, levels, engagement scores, quests)
  * from the local_aceengine plugin on course pages and the user dashboard.
  *
- * @package    block_ace
+ * @package    block_aceengine
  * @copyright  2026 Letstudy Group
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class block_ace extends block_base {
+class block_aceengine extends block_base {
     /**
      * Initialise the block.
      */
     public function init() {
-        $this->title = get_string('pluginname', 'block_ace');
+        $this->title = get_string('pluginname', 'block_aceengine');
     }
 
     /**
@@ -110,7 +110,7 @@ class block_ace extends block_base {
         $url = new moodle_url('/local/aceengine/index.php', ['courseid' => $COURSE->id]);
         $this->content->footer = html_writer::link(
             $url,
-            get_string('viewfulldashboard', 'block_ace'),
+            get_string('viewfulldashboard', 'block_aceengine'),
             ['class' => 'btn btn-outline-primary btn-sm btn-block mt-2']
         );
 
@@ -227,7 +227,7 @@ class block_ace extends block_base {
         ];
 
         $renderer = $this->page->get_renderer('core');
-        $this->content->text = $renderer->render_from_template('block_ace/my_dashboard', $data);
+        $this->content->text = $renderer->render_from_template('block_aceengine/my_dashboard', $data);
 
         return $this->content;
     }

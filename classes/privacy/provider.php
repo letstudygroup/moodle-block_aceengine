@@ -15,19 +15,19 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Privacy provider for block_ace.
+ * Privacy provider for block_aceengine.
  *
- * @package    block_ace
+ * @package    block_aceengine
  * @copyright  2026 Letstudy Group
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-namespace block_ace\privacy;
+namespace block_aceengine\privacy;
 
 /**
- * Privacy provider declaring that block_ace does not store any personal data.
+ * Privacy provider declaring that block_aceengine does not store any personal data.
  *
- * @package    block_ace
+ * @package    block_aceengine
  * @copyright  2026 Letstudy Group
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */

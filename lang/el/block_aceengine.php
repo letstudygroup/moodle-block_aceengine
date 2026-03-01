@@ -15,17 +15,17 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Language strings for block_ace.
+ * Greek language strings for block_aceengine.
  *
- * @package    block_ace
+ * @package    block_aceengine
  * @copyright  2026 Letstudy Group
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['ace:addinstance'] = 'Add ACE Dashboard block';
-$string['ace:myaddinstance'] = 'Add ACE Dashboard to My page';
-$string['pluginname'] = 'ACE Dashboard';
-$string['privacy:metadata'] = 'The ACE Dashboard block does not store any personal data. All data is managed by the local_aceengine plugin.';
-$string['viewfulldashboard'] = 'View full dashboard';
+$string['ace:addinstance'] = 'Προσθήκη block Πίνακα ACE';
+$string['ace:myaddinstance'] = 'Προσθήκη Πίνακα ACE στη σελίδα μου';
+$string['pluginname'] = 'Πίνακας ACE';
+$string['privacy:metadata'] = 'Το block Πίνακας ACE δεν αποθηκεύει προσωπικά δεδομένα. Όλα τα δεδομένα διαχειρίζονται από το πρόσθετο local_aceengine.';
+$string['viewfulldashboard'] = 'Προβολή πλήρους πίνακα';
