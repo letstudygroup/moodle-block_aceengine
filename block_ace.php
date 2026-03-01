@@ -20,7 +20,7 @@
  * Embeds the ACE dashboard inside a course or on the user's My page.
  *
  * @package    block_ace
- * @copyright  2026 LetStudy Group
+ * @copyright  2026 Letstudy Group
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -31,7 +31,7 @@
  * from the local_ace plugin on course pages and the user dashboard.
  *
  * @package    block_ace
- * @copyright  2026 LetStudy Group
+ * @copyright  2026 Letstudy Group
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class block_ace extends block_base {
